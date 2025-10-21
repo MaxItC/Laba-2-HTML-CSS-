@@ -1,0 +1,40 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+table {
+      border-collapse: collapse;
+      width: 800px; /* фиксируем общую ширину */
+      table-layout: fixed;
+    }
+    td {
+      border: 1px solid black;
+      height: 50px;
+      font-size: 30px;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+#xxx{
+  font-size: 25px;
+}
+
+#row1{
+  background-color: #8f8f8f;
+}
+
+#row2{
+  background-color: #f5f520;
+}
+
+#row1:hover{
+  background-color: #f5f520;
+}
+
+#row2:hover{
+  background-color: #8f8f8f;
+}
+
